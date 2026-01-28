@@ -1,0 +1,33 @@
+.main-content {
+    display: flex;
+    padding-top: 65px;
+}
+
+/* SOL MENÜ */
+.solaacilir {
+    position: fixed;              /* 🔥 SABİT */
+    top: 65px;                     /* header yüksekliği */
+    left: 0;
+    width: 256px;
+    height: calc(100vh - 65px);
+    overflow-y: auto;              /* menü taşarsa scroll */
+    background: #fff;
+    z-index: 1000;
+}
+
+/* SAĞ İÇERİK */
+.main-content-right {
+    width: 100%;
+    margin-left: 256px;            /* 🔥 menü kadar boşluk */
+}
+
+/* MOBİL */
+@media only screen and (max-width: 600px) {
+    .solaacilir {
+        display: none;
+    }
+
+    .main-content-right {
+        margin-left: 0;
+    }
+}

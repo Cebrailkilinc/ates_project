@@ -1,0 +1,44 @@
+.genel-page-head {
+  font-size: 50px;
+  text-align: start;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+
+}
+
+.genel-page-1 {
+  height: 500px;
+  display: grid;
+  grid-template-columns: auto auto;
+  /* normalde 2 kolon */
+  padding: 50px;
+}
+
+.right-col {
+  display: grid;
+  row-gap: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .genel-page-1 {
+    grid-template-columns: 1fr;
+    /* ✅ tek kolon */
+    height: 500px;
+    /* ✅ mobilde sabit yükseklik yerine esnek */
+    padding: 20px;
+    /* ✅ mobil uyum için daha az padding */
+    row-gap: 20px;
+    /* ✅ elemanlar arası boşluk */
+  }
+
+  .genel-page-head {
+    font-size: 50px;
+    text-align: start;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "telekom": {
+    "genelBilgi": {
+      "t1Toplam": 0,
+      "t2Toplam": 0,
+      "toplamUzunluk_m": 0,
+      "toplamYapilanUzunluk_m": 0,
+      "boruTipi":"HDPE",
+      "boruhatSayisi":3,
+      "kullanilanMenhol": {
+        "t1Kullanilan": 0,
+        "t2Kullanilan": 0
+      }
+    },
+    "yolDetaylari": [
+      {
+        "yolId": "YOL-01",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-02",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-03",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-04",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-05",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-06",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-07",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-08",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-09",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-10",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-11",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-12",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-13",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-14",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-15",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-16",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-17",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-18",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-19",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-20",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-21",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-22",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-23",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-24",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-25",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-26",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-27",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-28",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-29",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-30",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-31",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-32",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-33",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-34",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-35",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-36",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-37",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-38",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-39",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-40",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-41",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-42",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-43",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-44",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      },
+      {
+        "yolId": "YOL-45",
+        "t1Sayisi": 0,
+        "t2Sayisi": 0,
+        "toplamUzunluk_m": 0,
+        "yapilanUzunluk_m": 0,
+        "bittiMi": false
+      }
+    ]
+  }
+}
