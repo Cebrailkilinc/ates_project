@@ -15,7 +15,7 @@
 }
 @media (max-width: 600px) {
   .telekom-genel-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr ;
     justify-items: center;
     row-gap: 24px;        /* 🔥 DÜŞEY BOŞLUK */
   } 
@@ -41,24 +41,26 @@
     width: 100%;
 }
 
-.telekom-genel-container-baslik{
+.telekom-genel-container-baslik {
     text-align: center;
     margin-top: 30px;
     font-size: 30px;
     padding-bottom: 50px;
+
     border-bottom: 1px solid rgb(189, 189, 189);
-    width: 100%;
+
+    width: 100vw;              /* 🔥 TÜM EKRAN */
+    margin-left: calc(-50vw + 50%);  /* 🔥 ortalama hilesi */
 }
 
-@media (max-width: 900px) {
-  .telekom-table {
-    grid-template-columns: 1fr;
-  }
-}
+
 
 @media (max-width: 600px) {
   .telekom-table {
     padding: 12px;
     padding-top: calc(65px + 12px);
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 16px;
   }
 }
