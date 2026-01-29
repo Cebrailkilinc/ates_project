@@ -1,66 +1,20 @@
-.telekom-genel-container {
+
+.telekom-genel-chart-container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(260px, 1fr));
-  gap: 16px;
-  align-items: start;
-  max-width: 100%;
-  
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding-bottom: 50px;
 }
-
-/* chart alanı sabit: ikisi de aynı boy */
-.chart-box {
-  width: 100%;
-  max-width: 360px;   /* 🔥 büyümeyi keser */
-  height: 320px;      /* 🔥 ikisini aynı yapar */
-}
-@media (max-width: 600px) {
-  .telekom-genel-container {
-    grid-template-columns: 1fr 1fr ;
-    justify-items: center;
-    row-gap: 24px;        /* 🔥 DÜŞEY BOŞLUK */
-  } 
-}
-.telekom-table {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr)); /* 🔥 eşit ve sığar */
-    gap: 24px;
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 100px;
-}
-
-/* her tabloyu saran kutu */
-.table-box {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: auto;     /* 🔥 tablo taşarsa kendi içinde scroll */
-}
-
-/* ant table zorlaması */
-.table-box .ant-table {
-    width: 100%;
-}
-
-.telekom-genel-container-baslik {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 30px;
-    padding-bottom: 50px;
-
-    border-bottom: 1px solid rgb(189, 189, 189);
-
-    width: 100vw;              /* 🔥 TÜM EKRAN */
-    margin-left: calc(-50vw + 50%);  /* 🔥 ortalama hilesi */
-}
-
-
-
-@media (max-width: 600px) {
-  .telekom-table {
-    padding: 12px;
-    padding-top: calc(65px + 12px);
-    display: grid;
-    grid-template-columns: 1fr ;
-    gap: 16px;
+@media screen and (max-width: 768px) {
+  .telekom-genel-chart-container {
+    grid-template-columns: 1fr 1fr;
   }
+}
+.recharts-legend-item-text{
+  margin-top: 10px;
+}
+.telekom-genel-container-baslik{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

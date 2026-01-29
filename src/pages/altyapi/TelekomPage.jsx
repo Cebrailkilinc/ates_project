@@ -29,7 +29,7 @@ const dataSource = [
         name: 'İlerleme Oranı',
         age: 42,
         address: '10 Downing Street',
-    },  
+    },
     {
         key: '5',
         name: 'Stoktaki T1 / T2',
@@ -68,7 +68,7 @@ const RADIAN = Math.PI / 180;
 const COLORS = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042"];
 
 const renderCustomizedLabel = (props) => {
-    const { cx, cy, midAngle, innerRadius, outerRadius, percent } = props;
+    const { cx, cy, midAngle, innerRadius, outerRadius, percent, value } = props;
     if (cx == null || cy == null || innerRadius == null || outerRadius == null) return null;
 
     const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
@@ -82,19 +82,27 @@ const renderCustomizedLabel = (props) => {
             x={x}
             y={y}
             fill="white"
-            textAnchor={x > ncx ? "start" : "end"}
+            textAnchor="middle"
             dominantBaseline="central"
+        // Boyutu ihtiyaca göre ayarla
         >
-            {`${((percent ?? 0) * 100).toFixed(0)}%`}
+            {/* İlk Satır: Yüzdelik */}
+            <tspan id="grafik-data-2" x={x} dy="-0.6em">
+                {`${((percent ?? 0) * 100).toFixed(0)}%`}
+            </tspan>
+
+            {/* İkinci Satır: Metre Cinsinden Değer */}
+            <tspan id="grafik-data-2" x={x} dy="1.2em" >
+                {`${value} m`}
+            </tspan>
         </text>
     );
 };
-
 const TelekomPage = () => {
     return (
-        <div>
+        <div className="telekom-main-container">
             <h1 className="telekom-genel-container-baslik" >TELEKOM GENEL BİLGİLER</h1>
-            <div className="telekom-genel-container">
+            <div className="telekom-genel-chart-container">
                 {/* CHART 1 */}
                 <div className="chart-box">
                     <ResponsiveContainer width="100%" aspect={1}>
@@ -112,7 +120,12 @@ const TelekomPage = () => {
                                 ))}
                             </Pie>
                             <Tooltip />
-                            <Legend />
+                              <Legend
+                                layout="horizontal"
+                                verticalAlign="bottom"
+                                align="center"
+                                wrapperStyle={{ paddingTop: "20px" }} // Grafik ile arasına mesafe koyar
+                            />
                         </PieChart>
                     </ResponsiveContainer>
                 </div>
@@ -134,7 +147,12 @@ const TelekomPage = () => {
                                 ))}
                             </Pie>
                             <Tooltip />
-                            <Legend />
+                            <Legend
+                                layout="horizontal"
+                                verticalAlign="bottom"
+                                align="center"
+                                wrapperStyle={{ paddingTop: "20px" }} // Grafik ile arasına mesafe koyar
+                            />
                         </PieChart>
                     </ResponsiveContainer>
                 </div>
@@ -155,7 +173,12 @@ const TelekomPage = () => {
                                 ))}
                             </Pie>
                             <Tooltip />
-                            <Legend />
+                              <Legend
+                                layout="horizontal"
+                                verticalAlign="bottom"
+                                align="center"
+                                wrapperStyle={{ paddingTop: "20px" }} // Grafik ile arasına mesafe koyar
+                            />
                         </PieChart>
                     </ResponsiveContainer>
                 </div>
