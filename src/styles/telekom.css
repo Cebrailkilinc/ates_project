@@ -1,20 +1,95 @@
-
-.telekom-genel-chart-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-  padding-bottom: 50px;
+/* telekom.css */
+:root {
+  --bg-color: #f4f7f9;
+  --card-bg: #ffffff;
+  --text-main: #2d3436;
+  --primary-blue: #0088fe;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  --radius: 12px;
 }
-@media screen and (max-width: 768px) {
-  .telekom-genel-chart-container {
-    grid-template-columns: 1fr 1fr;
+
+.telekom-main-container {
+  background-color: var(--bg-color);
+  padding: 2rem;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+}
+
+.telekom-genel-container-baslik {
+  text-align: left;
+  color: var(--text-main);
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  border-left: 5px solid var(--primary-blue);
+  padding-left: 15px;
+}
+
+/* Grafik ve Tablo Grid Yapısı */
+.telekom-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.chart-box, .table-box {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: transform 0.2s ease;
+}
+
+.chart-box:hover, .table-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Recharts Özelleştirme */
+.recharts-legend-item-text {
+  font-size: 13px !important;
+  color: #636e72 !important;
+}
+
+/* Ant Design Tablo Özelleştirme */
+.ant-table-wrapper {
+  background: white;
+  border-radius: var(--radius);
+}
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+  .telekom-main-container {
+    padding: 1rem;
+  }
+  
+  .telekom-grid-layout {
+    grid-template-columns: 1fr;
+  }
+  
+  .telekom-genel-container-baslik {
+    font-size: 1.4rem;
   }
 }
-.recharts-legend-item-text{
-  margin-top: 10px;
+
+.full-width-table {
+    margin-top: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
 }
-.telekom-genel-container-baslik{
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+
+.loading-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 20px;
+    color: #1890ff;
+}
+
+/* Tablo başlıklarını biraz daha belirgin yapalım */
+.ant-table-thead > tr > th {
+    background-color: #fafafa !important;
+    font-weight: 700 !important;
 }

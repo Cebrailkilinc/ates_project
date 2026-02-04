@@ -21,9 +21,7 @@ const SolAcilirMenu = () => {
                     label: 'GENEL TABLO',
                     icon: <LineChartOutlined />,
                 },
-                { key: '5', label: 'KAZI ÇALIŞMASI ' },
-                { key: '6', label: 'DOLGU ÇALIŞMASI' },
-                { key: '7', label: 'ASFALT' },
+                { key: '7', label: 'TOPRAK - ASFALT' },
                 { key: '8', label: 'BORDUR-KALDIRIM' },
 
             ],

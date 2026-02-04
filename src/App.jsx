@@ -15,7 +15,7 @@ function App() {
   const [count, setCount] = useState(0);
   const [users, setUsers] = useState([]);
 
-  console.log(telekomData)
+ 
   // useEffect(() => {
   //   const fetchUsers = async () => {
   //     try {
